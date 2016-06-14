@@ -221,9 +221,12 @@ class DataReader(analyzer.Analyzer):
 
     @time_deco(TIME_PRINT, CLASS_NAME)
     def convert_file_tx_txt_to_msgpack3(self):
+        # convert txt file to binary file with messagepack
+        # separate in each beads and ecery 10^6 timepoints
+
         if self.msg_t_file_list:
             return 'msg file is already exist'
-        _file_separate_num = 10**7
+        _file_separate_num = 10**6
         _i = 0
         _beads_num = 1
         _file_num = 1
