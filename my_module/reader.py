@@ -1,6 +1,8 @@
 import os
 import os.path
 
+print('my_module/reader.py is loaded')
+
 
 class Directory():
     def __init__(self, name):

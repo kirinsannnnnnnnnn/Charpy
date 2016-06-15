@@ -1,6 +1,8 @@
 import time
 from functools import wraps
 
+print('my_module/time_deco.py is loaded')
+
 
 def time_deco(_a, cn):
     def wrappedwrapper(f):

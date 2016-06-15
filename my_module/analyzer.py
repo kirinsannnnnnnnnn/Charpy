@@ -21,7 +21,7 @@ if __name__=='__main__':
 
 if __name__=='data_reader':
     print('tttttttttttttttttttesttttttttttttttttttt')
-print('hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh')
+print('my_module/analyzer.py is loaded')
 
 TIME_PRINT=1
 class Data():
